@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\USER01\\\\Desktop\\\\MY CYBERSEC PROJECTS\\\\PhishGuard\\\\analyzers\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\USER01\\\\Desktop\\\\MY CYBERSEC PROJECTS\\\\PhishGuard\\\\utils\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\USER01\\\\Desktop\\\\MY CYBERSEC PROJECTS\\\\PhishGuard\\\\samples\")",
+      "PowerShell(cd \"C:\\\\Users\\\\USER01\\\\Desktop\\\\MY CYBERSEC PROJECTS\\\\PhishGuard\"; python phishguard.py samples/phishing1.eml --export test_report.pdf 2>&1; if \\(Test-Path \"test_report.pdf\"\\) { Write-Output \"PDF EXISTS: $\\(\\(Get-Item test_report.pdf\\).Length\\) bytes\" })"
+    ]
+  }
+}

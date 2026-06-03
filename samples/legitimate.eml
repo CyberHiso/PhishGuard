@@ -1,0 +1,32 @@
+From: "GitHub" <noreply@github.com>
+To: developer@example.com
+Subject: [GitHub] A third-party OAuth application has been added to your account
+Reply-To: noreply@github.com
+Return-Path: <noreply@github.com>
+Received-SPF: pass (github.com: domain of noreply@github.com designates 192.30.252.0 as permitted sender)
+Authentication-Results: mx.example.com; spf=pass smtp.mailfrom=noreply@github.com; dkim=pass header.d=github.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com; s=pf2014; h=from:to:subject:date:message-id; bh=abc123==; b=xyz456==
+Date: Mon, 03 Jun 2026 08:00:00 +0000
+Message-ID: <20260603080000.1234567.noreply@github.com>
+Content-Type: text/plain; charset="UTF-8"
+MIME-Version: 1.0
+
+Hi developer,
+
+A third-party OAuth application (VS Code GitHub Copilot) was recently authorized to access your GitHub account.
+
+If you authorized this application, no further action is needed.
+
+If you did not authorize this application, visit your GitHub security settings to review and revoke access:
+
+https://github.com/settings/applications
+
+This notification was sent to developer@example.com because it is the primary email address for this GitHub account.
+
+If you believe you received this email in error, please contact GitHub Support:
+https://support.github.com
+
+Thanks,
+The GitHub Team
+
+You're receiving this email because of your account on github.com.

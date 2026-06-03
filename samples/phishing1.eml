@@ -1,0 +1,40 @@
+From: "PayPal Security" <security@paypal-secure-verify.xyz>
+To: victim@example.com
+Subject: URGENT: Your PayPal Account Has Been Limited - Action Required
+Reply-To: attacker-collect@gmail.com
+Return-Path: <bounce@paypal-secure-verify.xyz>
+Received-SPF: fail (domain of paypal-secure-verify.xyz does not designate 185.220.101.45 as permitted sender)
+Authentication-Results: mx.example.com; spf=fail; dkim=fail
+Date: Mon, 03 Jun 2026 09:15:00 +0000
+X-Mailer: PHPMailer 6.4.1
+Content-Type: text/html; charset="UTF-8"
+MIME-Version: 1.0
+
+<html>
+<body>
+<p>Dear valued customer,</p>
+
+<p>We have detected <strong>unusual activity</strong> on your PayPal account. Your account has been temporarily limited until you verify your identity.</p>
+
+<p>You must verify your account immediately or your account will be suspended within 24 hours.</p>
+
+<p>Please click the link below to confirm your identity and restore access:</p>
+
+<p><a href="http://paypal.account-secure.verify.xyz/login?token=abc123">https://www.paypal.com/verify</a></p>
+
+<p>To complete verification, you will need to:</p>
+<ul>
+  <li>Enter your PayPal email and password</li>
+  <li>Confirm your credit card details</li>
+  <li>Provide your Social Security Number for identity verification</li>
+</ul>
+
+<p>This is your last warning. Failure to respond within 24 hours will result in permanent account termination.</p>
+
+<p>Act now to protect your account.</p>
+
+<p>Regards,<br>
+PayPal Security Team<br>
+PayPal Inc.</p>
+</body>
+</html>

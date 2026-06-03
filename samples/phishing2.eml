@@ -1,0 +1,35 @@
+From: "IT Helpdesk" <it-support@company-helpdesk.tk>
+To: employee@targetcorp.com
+Subject: [IMPORTANT] Password Expiry Notice - Reset Required Today
+Reply-To: harvest@mailinator.com
+Return-Path: <noreply@mass-emailer.ru>
+Received-SPF: softfail (SPF softfail for domain company-helpdesk.tk)
+Authentication-Results: mx.targetcorp.com; spf=softfail; dkim=none
+Date: Mon, 03 Jun 2026 11:30:00 +0000
+X-Mailer: SendBlaster 4.0
+X-Originating-IP: 91.108.4.200
+Content-Type: text/plain; charset="UTF-8"
+MIME-Version: 1.0
+
+Dear user,
+
+URGENT SECURITY NOTICE - Immediate Action Required
+
+Your corporate password is set to expire TODAY. You must reset your password immediately to avoid losing access to all company systems.
+
+Click here to reset your password now:
+http://192.168.10.55/corp/password-reset/login?user=employee
+
+If you fail to reset your password within the next 2 hours, your account will be locked and you will need to contact HR to restore access.
+
+To complete your password reset, please enter your current username and password, then choose a new password.
+
+Your account will be suspended if you do not act now.
+
+DO NOT ignore this message. This is your last chance to maintain access.
+
+Scan the QR code in the attached document or visit: http://bit.ly/3xR9kPs
+
+IT Department
+Security Administrator
+TargetCorp IT Helpdesk
