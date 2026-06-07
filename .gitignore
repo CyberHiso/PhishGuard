@@ -28,6 +28,9 @@ build_docs.js
 # VS Code
 .vscode/
 
+# Claude AI assistant config
+.claude/
+
 # OS files
 .DS_Store
 Thumbs.db
